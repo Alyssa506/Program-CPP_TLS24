@@ -46,9 +46,6 @@ int main() {
         outfile << "Pemasukan Bersih: Rp " << pemasukan_bersih << "\n";
         outfile << "Bonus: Rp " << bonus << "\n";
         outfile.close();
-        cout << "Hasil telah disimpan di file 'hasil_bonus.txt'.\n";
-    } else {
-        cout << "Gagal membuka file untuk menyimpan hasil.\n";
     }
 
     return 0;
